@@ -1,4 +1,10 @@
 1. Docker Architecture
 2. How to convert Application code into Dockerfile
-3. How to convert Dockerfile into Docker container
+3. How to convert Dockerfile into a Docker container
 4. Client to access docker resources 
+
+
+My Questions:
+1. One question regarding the basic architecture of K8's. [Reffering to the basic diagram ] We have only 1 etcd than other components in the master. Doesn't that serve a higher risk if it fails?
+
+2. Also does a master node keep track of worker nodes present in it But does a worker node know about other worker nodes? is there any significance of worker-to-worker communication?
